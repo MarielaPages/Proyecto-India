@@ -20,11 +20,8 @@ h4{
 }
 
 /*NavBar*/
-#navbar-big{
+#navbar-fixed{
     display: none;
-}
-.nav-content{
-    margin-top: 0.875rem;
 }
 .navbar-toggler{
     border: none;
@@ -60,17 +57,15 @@ h4{
 
 /*Nosotros*/
 .subtitulo-presentacion{
-    margin-top: 1.5rem;
+    padding-top: 3rem;
     font-size: 0.75rem;
     text-align: center;
     color:#3E3E3E;
-    margin-bottom: 0.4rem;
 }
 .nosotros-texto{
     width: 20.3rem;
     margin: auto;
     text-align: center;
-    margin-bottom: 2rem;
 }
 /*Fin Nosotros*/
 
@@ -88,6 +83,39 @@ h4{
     color: rgb(226, 7, 7);
     margin-bottom: 1.7rem;
 }
+/*Fin servicios*/
+
+/*Footer*/
+footer{
+    background-color: #3D1D4A;
+    color: white;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+.subtitulo-contacto{
+    font-size: 0.75rem;
+    padding-top: 2rem;
+    text-align: center;
+    color:white;
+    margin-bottom: 0.4rem;
+}
+#titulos-contacto{
+    color: white;
+    margin-bottom: 1rem;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #3D1D4A, #662572, #772B6D,#8C3566, #BB4069,#E04350);
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    text-decoration: none;
+    margin-right: 0.5rem;
+}
+/*Fin footer*/
 
 @media only screen and (min-width: 768px){
 
@@ -97,6 +125,7 @@ h4{
     /*Nosotros*/
     .subtitulo-presentacion{
         font-size: 0.88rem;
+        padding-top: 5.05rem;
         text-align: center;
     }
     .nosotros-texto{
@@ -108,11 +137,17 @@ h4{
     .servicios-container{
         width: 45.3rem;
     }
+    /*Fin servicios*/
+
+    /*Footer*/
+    .subtitulo-contacto{
+        font-size: 0.88rem;
+    }
 }
 
 @media only screen and (min-width:992px){
     /*navBar*/
-    #navbar-big{
+    #navbar-fixed{
         display: unset;
         position: fixed;
         width: 100%;
