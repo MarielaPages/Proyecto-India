@@ -101,7 +101,7 @@ footer{
 }
 #titulos-contacto{
     color: white;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 .icon{
     display: flex;
@@ -109,11 +109,14 @@ footer{
     align-items: center;
     background: linear-gradient(to right, #3D1D4A, #662572, #772B6D,#8C3566, #BB4069,#E04350);
     border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
+    width: 1.8rem;
+    height: 1.8rem;
     color: white;
     text-decoration: none;
     margin-right: 0.5rem;
+}
+.last-icon{
+    padding-bottom: 2rem;
 }
 /*Fin footer*/
 
@@ -143,6 +146,7 @@ footer{
     .subtitulo-contacto{
         font-size: 0.88rem;
     }
+    /*Fin footer*/
 }
 
 @media only screen and (min-width:992px){
@@ -176,7 +180,7 @@ footer{
     .carousel-container{
         margin-top: 8rem;
     }
-    /*Nosotrto*/
+    /*Nosotrtos*/
     .nosotros-texto{
         width: 58.2rem;
     }
@@ -186,6 +190,7 @@ footer{
     .servicios-container{
         width:58.2rem;
     }
+    /*Fin servicios*/
 }
 
 @media only screen and (min-width:1140px){
@@ -199,6 +204,7 @@ footer{
     .servicios-container{
         width:75.2rem;
     }
+    /*Fin servicios*/
 }
 
 @media only screen and (min-width:1320px){
@@ -212,4 +218,5 @@ footer{
     .servicios-container{
         width:80rem;
     }
+    /*Fin servicios*/
 }
