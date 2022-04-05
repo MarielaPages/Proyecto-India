@@ -85,6 +85,20 @@ h4{
 }
 /*Fin servicios*/
 
+/*Clientes*/
+.clientes-contenedor{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+#clientes-slider{
+    width: 20.3rem;
+}
+.item{
+    width:9.5rem;
+}
+/*Fin clientes*/
+
 /*Footer*/
 footer{
     background-color: #3D1D4A;
@@ -142,6 +156,12 @@ footer{
     }
     /*Fin servicios*/
 
+    /*Clientes*/
+    #clientes-slider{
+        width: 45.3rem;
+    }
+    /*Fin clientes*/
+
     /*Footer*/
     .subtitulo-contacto{
         font-size: 0.88rem;
@@ -191,6 +211,12 @@ footer{
         width:58.2rem;
     }
     /*Fin servicios*/
+
+    /*Clientes*/
+    #clientes-slider{
+        width: 58.2rem;
+    }
+    /*Fin clientes*/
 }
 
 @media only screen and (min-width:1140px){
@@ -205,6 +231,12 @@ footer{
         width:75.2rem;
     }
     /*Fin servicios*/
+
+    /*Clientes*/
+    #clientes-slider{
+        width: 75.2rem;
+    }
+    /*Fin clientes*/
 }
 
 @media only screen and (min-width:1320px){
@@ -219,4 +251,10 @@ footer{
         width:80rem;
     }
     /*Fin servicios*/
+
+    /*Clientes*/
+    #clientes-slider{
+        width: 80rem;
+    }
+    /*Fin clientes*/
 }
