@@ -92,6 +92,9 @@ h4{
 .modal-container{
     padding: 0;
 }
+.modal-container button{
+    border: none;
+}
 .modal-item{
     max-width: 20rem;
     width:100%;
