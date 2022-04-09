@@ -1,35 +1,3 @@
-$(document).ready(function(){
-    $("#clientes-slider").owlCarousel({
-        loop:true,
-        autoplay: true,
-        margin:10,
-        nav:false,
-        dots: true,
-        autoplayHoverPause: true,
-        autoplaySpeed: 2000,
-        responsive:{
-            0:{
-                items:2
-            },
-            768:{
-                items:4
-            },
-
-            900:{
-                items:6
-            },
-
-            1200:{
-                items:6
-            },
-
-            1500:{
-                items:6
-            }
-        }
-    });
-  });
-
 // Get the button that opens the modal
 var btn = document.querySelectorAll("button.modal-button");
 
@@ -65,3 +33,70 @@ window.onclick = function(event) {
      }
     }
 }
+
+//Portfolio sider (necesitamos uno para cada owl carousel)
+$(document).ready(function(){
+    $(".modal-slider").owlCarousel({
+        loop:true,
+        autoplay: true,
+        margin:10,
+        nav:false,
+        dots: true,
+        autoplayHoverPause: true,
+        autoplaySpeed: 2000,
+        responsive:{
+            0:{
+                items:1
+            },
+            768:{
+                items:1
+            },
+
+            900:{
+                items:1
+            },
+
+            1200:{
+                items:1
+            },
+
+            1500:{
+                items:1
+            }
+        }
+    });
+  });
+
+
+//clientes slider
+$(document).ready(function(){
+    $("#clientes-slider").owlCarousel({
+        loop:true,
+        autoplay: true,
+        margin:10,
+        nav:false,
+        dots: true,
+        autoplayHoverPause: true,
+        autoplaySpeed: 2000,
+        responsive:{
+            0:{
+                items:2
+            },
+            768:{
+                items:4
+            },
+
+            900:{
+                items:6
+            },
+
+            1200:{
+                items:6
+            },
+
+            1500:{
+                items:6
+            }
+        }
+    });
+  });
