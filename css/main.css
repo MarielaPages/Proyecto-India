@@ -120,6 +120,14 @@ h4{
 .contactanos-link{
     color: #FFFFFF !important;
 }
+.carousel-caption{
+    left: 3%;
+    width: 30rem;
+    text-align: start;
+    font-weight:600;
+    text-transform:uppercase;
+    font-size: 1.2rem;
+}
 /*Fin navbar*/
 
 /*Nosotros*/
@@ -200,6 +208,9 @@ h4{
 }
 .item-center2{
     margin-top: 3rem;
+}
+.item-center3{
+    margin-top: 4rem;
 }
 /*Fin clientes*/
 
@@ -317,6 +328,10 @@ footer{
     .carousel-container{
         margin-top: 8rem;
     }
+    .carousel-caption{
+        width: 40rem;
+        font-size: 1.3rem;
+    }
     /*Nosotrtos*/
     .nosotros-texto{
         width: 58.2rem;
@@ -350,6 +365,11 @@ footer{
     /*Nosotrto*/
     .nosotros-texto{
         width: 75.2rem;
+    }
+    .carousel-caption{
+        width: 48rem;
+        font-weight:800;
+        font-size: 1.5rem;
     }
     /*Fin Nosotros*/
 
