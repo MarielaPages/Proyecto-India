@@ -177,7 +177,7 @@ h4{
 }
 .modal-content-stack{
     width: 20rem;
-    height: 35rem;
+    height: 37rem;
 }
 .modal-content-stack2{
     height: 44rem;
@@ -198,14 +198,23 @@ h4{
     margin-top: 1rem;
 }
 .modal-button{
+    display: none;
     position: absolute;
-    top:0;
-    right: 0;
-    padding: 0.2rem;
-    border-radius: 0.3rem;
+    top:50%;
+    right: 33%;
+    width: 7rem;
+    height: 2rem;
+    border: 2px solid white !important;
+    background-color: unset;
+    border-radius: 15px;
     color: #FFFFFF;
-    background: linear-gradient(to right, #3D1D4A, #662572, #772B6D, #8C3566, #BB4069, #E04350);
 }
+.ver-mas-wrapper:hover img {
+    filter: brightness(70%);
+  }
+.ver-mas-wrapper:hover .modal-button {
+    display: inline-block;
+  }
 /*Fin portfolio/
 
 /*Clientes*/
