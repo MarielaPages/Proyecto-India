@@ -128,6 +128,10 @@ h4{
     text-transform:uppercase;
     font-size: 1.2rem;
 }
+.nav-container {
+    position: relative;
+    z-index: 2; /* Para que quede por encima del owl carousel*/
+}
 /*Fin navbar*/
 
 /*Nosotros*/
@@ -215,6 +219,9 @@ h4{
 .ver-mas-wrapper:hover .modal-button {
     display: inline-block;
   }
+  .modal-stack{
+      z-index: 3; /*para que aparezca al frente de todo. Con dos no funciona, no se porque*/
+  }
 /*Fin portfolio/
 
 /*Clientes*/
@@ -222,8 +229,7 @@ h4{
     display: flex;
     justify-content: center;
     margin-bottom: 3rem;
-    position: relative;
-    z-index: -1; /* Debo poner el position relative y el z-index -1 para que quede detras de todo*/
+    z-index: -1;
 }
 #clientes-slider{
     width: 20.3rem;
