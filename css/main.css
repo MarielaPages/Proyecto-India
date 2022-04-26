@@ -222,6 +222,8 @@ h4{
     display: flex;
     justify-content: center;
     margin-bottom: 3rem;
+    position: relative;
+    z-index: -1; /* Debo poner el position relative y el z-index -1 para que quede detras de todo*/
 }
 #clientes-slider{
     width: 20.3rem;

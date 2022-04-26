@@ -34,16 +34,14 @@ window.onclick = function(event) {
     }
 }
 
-//Portfolio sider (necesitamos uno para cada owl carousel)
+//Portfolio siders (necesitamos uno para cada owl carousel)
 $(document).ready(function(){
     $(".modal-slider").owlCarousel({
         loop:true,
-        autoplay: true,
+        autoplay: false,
         margin:10,
         nav:false,
         dots: true,
-        autoplayHoverPause: true,
-        autoplaySpeed: 2000,
         responsive:{
             0:{
                 items:1
@@ -87,7 +85,7 @@ $(document).ready(function(){
             },
 
             900:{
-                items:6
+                items:5
             },
 
             1200:{
