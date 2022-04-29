@@ -180,7 +180,6 @@ h4 {
     z-index: 2;
     /* Para que quede por encima del owl carousel*/
 }
-
 /*Fin navbar*/
 
 
@@ -296,7 +295,6 @@ h4 {
     /*para que aparezca al frente de todo. Con dos no funciona, no se porque*/
 }
 
-
 /*Fin portfolio/
 
 /*Clientes*/
@@ -327,7 +325,6 @@ h4 {
 .item-center3 {
     margin-top: 4rem;
 }
-
 
 /*Fin clientes*/
 
@@ -370,8 +367,9 @@ footer {
 .last-icon {
     padding-bottom: 2rem;
 }
-
-
+#img-footer {
+    width: fit-content;
+}
 /*Fin footer*/
 
 @media only screen and (min-width: 768px) {
@@ -557,6 +555,3 @@ footer {
     /*Fin clientes*/
 }
 
-#img-footer {
-    width: fit-content;
-}
