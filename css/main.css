@@ -122,11 +122,12 @@ h4{
 }
 .carousel-caption{
     left: 3%;
-    width: 30rem;
+    width: 20rem;
     text-align: start;
-    font-weight:600;
+    padding-bottom: 0;
+    font-weight:400;
     text-transform:uppercase;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
 }
 .nav-container {
     position: relative;
@@ -282,6 +283,15 @@ footer{
 
     h3{
         font-size: 2.38rem;
+    }
+
+    .carousel-caption{
+        left: 3%;
+        width: 30rem;
+        text-align: start;
+        font-weight:600;
+        text-transform:uppercase;
+        font-size: 1.2rem;
     }
     /*Nosotros*/
     .subtitulo-presentacion{
