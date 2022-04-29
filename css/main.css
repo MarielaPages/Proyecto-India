@@ -170,7 +170,7 @@ h4 {
     width: 20rem;
     text-align: start;
     padding-bottom: 0;
-    font-weight:400;
+    font-weight:500;
     text-transform:uppercase;
     font-size: 0.8rem;
 }
@@ -180,7 +180,6 @@ h4 {
     z-index: 2;
     /* Para que quede por encima del owl carousel*/
 }
-
 
 /*Fin navbar*/
 
@@ -246,7 +245,10 @@ h4 {
 }
 
 .modal-content-stack2 {
-    height: 44rem;
+    height: 40rem;
+}
+.modal-content-stack3 {
+    height: 27rem;
 }
 
 .carousel-video-container {
@@ -256,7 +258,7 @@ h4 {
 }
 
 .carousel-video {
-    width: 11rem;
+    height:18.5rem;
 }
 
 .carousel-video2 {
@@ -378,12 +380,10 @@ footer {
     }
 
     .carousel-caption{
-        left: 3%;
         width: 30rem;
-        text-align: start;
         font-weight:600;
-        text-transform:uppercase;
         font-size: 1.2rem;
+        padding-bottom: 1rem;
     }
     /*Nosotros*/
     .subtitulo-presentacion {
@@ -406,16 +406,19 @@ footer {
     }
     .modal-content-stack {
         width: 30rem;
-        height: 45rem;
+        height: 43rem;
     }
     .modal-body-stack {
         margin-top: 1rem;
     }
     .modal-content-stack2 {
-        height: 50rem;
+        height: 48rem;
+    }
+    .modal-content-stack3 {
+        height: 39rem;
     }
     .carousel-video {
-        width: 18rem;
+        height:28.5rem;
     }
     .carousel-video2 {
         padding-top: 25%;
@@ -490,7 +493,7 @@ footer {
         height: 44rem;
     }
     .modal-content-stack2 {
-        height: 49rem;
+        height: 47rem;
     }
     /*Fin portfolio/
 
