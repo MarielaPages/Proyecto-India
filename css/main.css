@@ -244,7 +244,7 @@ h4 {
 }
 
 .modal-content-stack2 {
-    height: 40rem;
+    height: 42rem;
 }
 .modal-content-stack3 {
     height: 27rem;
@@ -492,6 +492,9 @@ footer {
     }
     .modal-content-stack2 {
         height: 47rem;
+    }
+    .modal-content-stack3 {
+        height: 40rem;
     }
     /*Fin portfolio/
 
